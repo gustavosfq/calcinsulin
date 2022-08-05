@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/calcinsulin/static/css/main.e4cda901.css",
-    "main.js": "/calcinsulin/static/js/main.fd9e974b.js",
+    "main.css": "/calcinsulin/static/css/main.a0f66ec2.css",
+    "main.js": "/calcinsulin/static/js/main.a355abbd.js",
     "static/js/787.9a450592.chunk.js": "/calcinsulin/static/js/787.9a450592.chunk.js",
     "index.html": "/calcinsulin/index.html",
-    "main.e4cda901.css.map": "/calcinsulin/static/css/main.e4cda901.css.map",
-    "main.fd9e974b.js.map": "/calcinsulin/static/js/main.fd9e974b.js.map",
+    "main.a0f66ec2.css.map": "/calcinsulin/static/css/main.a0f66ec2.css.map",
+    "main.a355abbd.js.map": "/calcinsulin/static/js/main.a355abbd.js.map",
     "787.9a450592.chunk.js.map": "/calcinsulin/static/js/787.9a450592.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4cda901.css",
-    "static/js/main.fd9e974b.js"
+    "static/css/main.a0f66ec2.css",
+    "static/js/main.a355abbd.js"
   ]
 }
