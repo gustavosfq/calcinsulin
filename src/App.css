@@ -1,0 +1,63 @@
+/* Reset y estilos globales */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1a1a1a;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.app {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+/* Estilos para inputs en dispositivos móviles */
+input[type="number"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Mejoras de accesibilidad */
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #2c5aa0;
+  outline-offset: 2px;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 480px) {
+  .app {
+    padding: 0;
+  }
+  
+  body {
+    font-size: 16px; /* Previene zoom en iOS */
+  }
+}
+
+/* Prevenir zoom en inputs en iOS */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}
